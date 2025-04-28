@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f8ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #5d5dfc;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #4b0082;
+  }
+  
+  .personagem {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 8px auto;
+    border-radius: 5px;
+    border: 1px solid #999;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 15px 5px;
+    background: #5d5dfc;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #4b4be0;
+  }
+  
+  #battle-log {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dashed #4b0082;
+    border-radius: 10px;
+    text-align: left;
+    min-height: 150px;
+  }
+  
+  #painel-batalha {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  #painel-batalha div {
+    background: #eee;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  #erro {
+    color: red;
+    margin-top: 10px;
+  }
+  

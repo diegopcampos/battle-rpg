@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Battle RPG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>⚔️ Battle RPG⚔️</h1>
+
+  <div id="ficha-container">
+    <h2>Cadastro de Personagens</h2>
+
+    <div class="personagem" id="personagem1">
+      <h3>Personagem 1</h3>
+      <input type="text" id="nome1" placeholder="Nome">
+      <input type="text" id="poder1" placeholder="Poder">
+      <div class="atributos">
+        <input type="number" id="vida1" placeholder="Vida" min="0">
+        <input type="number" id="mana1" placeholder="Mana" min="0">
+        <input type="number" id="acerto1" placeholder="Acerto" min="0">
+        <input type="number" id="defesa1" placeholder="Defesa" min="0">
+      </div>
+      <p id="pontos1">Pontos restantes: 500</p>
+    </div>
+
+    <div class="personagem" id="personagem2">
+      <h3>Personagem 2</h3>
+      <input type="text" id="nome2" placeholder="Nome">
+      <input type="text" id="poder2" placeholder="Poder">
+      <div class="atributos">
+        <input type="number" id="vida2" placeholder="Vida" min="0">
+        <input type="number" id="mana2" placeholder="Mana" min="0">
+        <input type="number" id="acerto2" placeholder="Acerto" min="0">
+        <input type="number" id="defesa2" placeholder="Defesa" min="0">
+      </div>
+      <p id="pontos2">Pontos restantes: 500</p>
+    </div>
+
+    <button id="confirmar-fichas" disabled>Confirmar Fichas</button>
+    <p id="erro"></p>
+  </div>
+
+  <div id="batalha-container" style="display:none;">
+    <h2>🧙‍♂️ Batalha</h2>
+    <div id="painel-batalha">
+      <div id="info1"></div>
+      <div id="info2"></div>
+    </div>
+
+    <div id="acao-container">
+      <button id="rolar-ataque">🎯 Rolar Ataque</button>
+      <button id="rolar-defesa" disabled>🛡️ Rolar Defesa</button>      
+    </div>
+
+    <div id="battle-log"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
